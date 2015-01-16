@@ -19,16 +19,16 @@
           <p class="instruction-text">Style a form so that labels are right-aligned against the field, and fields stack vertically.</p>
           <div class="instruction-answer">
             <!-- Edit here -->
-            <form>
-              <div>
+            <form class="signup-form">
+              <div class="signup-text">
                 <label>First Name</label>
                 <input type="text" name="firstName">
               </div>
-              <div>
+              <div class="signup-text">
                 <label>Last Name</label>
                 <input type="text" name="lastName">
               </div>
-              <div>
+              <div class="signup-text">
                 <label>Email</label>
                 <input type="email" name="email">
               </div>
@@ -39,33 +39,33 @@
           <p class="instruction-text">Should work for some more complicated forms...</p>
           <div class="instruction-answer">
             <!-- Edit here -->
-            <form>
-              <div>
+            <form class="signup-form">
+              <div class="signup-text">
                 <label>First Name</label>
                 <input type="text" name="firstName">
               </div>
-              <div>
+              <div class="signup-text">
                 <label>Last Name</label>
                 <input type="text" name="lastName">
               </div>
-              <div>
+              <div class="signup-text">
                 <label>Email</label>
                 <input type="email" name="email">
               </div>
-              <div>
+              <div class="signup-text">
                 <label>City</label>
                 <input type="text" name="city">
-                <label>State</label>
+                <label class="state-label">State</label>
                 <input type="text" name="state">
               </div>
-              <div>
+              <div class="signup-text">
                 <div>
-                  <label><input type="checkbox">Sign up for the newsletter</label>
+                  <label class="checkbox-text"><input type="checkbox">Sign up for the newsletter</label>
                 </div>
               </div>
               <div>
                 <div>
-                  <input type="submit">
+                  <input class="submit-button" type="submit">
                 </div>
               </div>
             </form>
@@ -79,17 +79,17 @@
           <p class="instruction-text">Create styles for validated inputs and validation messages.</p>
           <div class="instruction-answer">
             <!-- Edit here -->
-            <form>
-              <div>
+            <form class="signup-form">
+              <div class="signup-text validated">
                 <label>First Name</label>
                 <input type="text" name="firstName" value="Pascal">
                 <span class="is-valid">✓</span>
               </div>
-              <div>
+              <div class="signup-text">
                 <label>Last Name</label>
                 <input type="text" name="lastName">
               </div>
-              <div>
+              <div class="signup-text not-validated">
                 <label>Email</label>
                 <input type="email" name="email" value="myemail@something">
                 <span class="is-invalid">Please enter a valid value.</span>

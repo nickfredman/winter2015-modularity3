@@ -1,1 +1,79 @@
 /* ADD YOUR STYLES HERE */
+/*Number 14*/
+.signup-form {
+  width: 720px;
+}
+
+.signup-text label {
+  text-align: right;
+  width: 150px;
+  display: inline-block;
+  padding-right: 20px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.signup-text input {
+  width: 300px;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+}
+
+.signup-text {
+  margin-bottom: 16px;
+  /*height: 20px;*/
+
+}
+
+.signup-text input[name="city"] {
+  width: 160px;
+}
+
+.signup-text input[name="state"] {
+  width: 30px;
+}
+
+label.state-label {
+  width: 40px;
+  padding-left: 36px;
+}
+
+.signup-text input[type="checkbox"] {
+  margin-left: 30px;
+  width: 20px;
+}
+
+.signup-text .checkbox-text {
+  width: 371px;
+}
+
+.submit-button {
+  width: 310px;
+  border: 0;
+  border-radius: 5px;
+  height: 30px;
+  margin-left: 174px;
+}
+
+/*Number 15*/
+.validated input {
+  box-shadow: 0px 0px 4px 1px rgba(130,176,115,.9);
+  margin-top: 4px;
+}
+
+.validated span {
+  color: rgba(130,176,115,.9);
+  margin-left: 25px;
+}
+
+.not-validated input {
+  box-shadow: 0px 0px 4px 1px rgba(224,45,45,.9);
+  margin-top: 4px;
+}
+
+.not-validated span {
+  color: rgba(224,45,45,.9);
+  margin-left: 25px;
+}
+
+/*Number 16*/
