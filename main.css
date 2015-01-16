@@ -1,5 +1,9 @@
 /* ADD YOUR STYLES HERE */
 /*Number 14*/
+* {
+  box-sizing: border-box;
+}
+
 .signup-form {
   width: 720px;
 }
@@ -34,8 +38,9 @@
 }
 
 label.state-label {
-  width: 40px;
-  padding-left: 36px;
+  width: 100px;
+  padding-left: 46px;
+  margin: 0;
 }
 
 .signup-text input[type="checkbox"] {
@@ -77,3 +82,87 @@ label.state-label {
 }
 
 /*Number 16*/
+.search-bar {
+  width: 720px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  background: lightgray;
+  border-radius: 10px;
+  border: 1px solid #adadad;
+  position: absolute;
+}
+
+.search-bar label {
+  position: absolute;
+  left: 0;
+  width: 100px;
+  height: 100%;
+  line-height: 50px;
+  margin: 0 15px;
+}
+
+.middle {
+  position: absolute;
+  left:115px;
+  right: 110px;
+}
+.middle input {
+  border-radius: 5px;
+  border: 1px solid #adadad;
+  height: 30px;
+  margin: 10px 0;
+  display: block;
+  width: 100%;
+}
+
+.search-bar input[type="submit"] {
+  position: absolute;
+  right: 0;
+  width: 80px;
+  color: white;
+  background: salmon;
+  border: 0;
+  border-radius: 5px;
+  height: 30px;
+  margin: 10px 15px;
+}
+
+/*Number 17*/
+.omnibox {
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 2px 0;
+}
+
+.omnibox ul {
+  border: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.omnibox li {
+  display: inline-block;
+  text-decoration: none;
+  background: #5c79d1;
+  color: #fff;
+  margin: 2px 4px;
+  font-size: .8em;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.omnibox a {
+  text-decoration: none;
+  background: #2953cf;
+  color: #fff;
+  padding: 0 2px;
+  border-radius: 2px;
+  margin: 0 3px;
+}
+
+.omnibox input {
+  border: none;
+}
