@@ -1,168 +1,261 @@
 /* ADD YOUR STYLES HERE */
 /*Number 14*/
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .signup-form {
-  width: 720px;
+	width: 720px;
 }
 
 .signup-text label {
-  text-align: right;
-  width: 150px;
-  display: inline-block;
-  padding-right: 20px;
-  margin-left: 0;
-  padding-left: 0;
+	text-align: right;
+	width: 150px;
+	display: inline-block;
+	padding-right: 20px;
+	margin-left: 0;
+	padding-left: 0;
 }
 
 .signup-text input {
-  width: 300px;
-  border-radius: 5px;
-  border: 2px solid lightgray;
+	width: 300px;
+	border-radius: 5px;
+	border: 2px solid lightgray;
 }
 
 .signup-text {
-  margin-bottom: 16px;
-  /*height: 20px;*/
+	margin-bottom: 16px;
+	/*height: 20px;*/
 
 }
 
 .signup-text input[name="city"] {
-  width: 160px;
+	width: 160px;
 }
 
 .signup-text input[name="state"] {
-  width: 30px;
+	width: 30px;
 }
 
 label.state-label {
-  width: 100px;
-  padding-left: 46px;
-  margin: 0;
+	width: 100px;
+	padding-left: 46px;
+	margin: 0;
 }
 
 .signup-text input[type="checkbox"] {
-  margin-left: 30px;
-  width: 20px;
+	margin-left: 30px;
+	width: 20px;
 }
 
 .signup-text .checkbox-text {
-  width: 371px;
+	width: 371px;
 }
 
 .submit-button {
-  width: 310px;
-  border: 0;
-  border-radius: 5px;
-  height: 30px;
-  margin-left: 174px;
+	width: 310px;
+	border: 0;
+	border-radius: 5px;
+	height: 30px;
+	margin-left: 174px;
 }
 
 /*Number 15*/
 .validated input {
-  box-shadow: 0px 0px 4px 1px rgba(130,176,115,.9);
-  margin-top: 4px;
+	box-shadow: 0px 0px 4px 1px rgba(130,176,115,.9);
+	margin-top: 4px;
 }
 
 .validated span {
-  color: rgba(130,176,115,.9);
-  margin-left: 25px;
+	color: rgba(130,176,115,.9);
+	margin-left: 25px;
 }
 
 .not-validated input {
-  box-shadow: 0px 0px 4px 1px rgba(224,45,45,.9);
-  margin-top: 4px;
+	box-shadow: 0px 0px 4px 1px rgba(224,45,45,.9);
+	margin-top: 4px;
 }
 
 .not-validated span {
-  color: rgba(224,45,45,.9);
-  margin-left: 25px;
+	color: rgba(224,45,45,.9);
+	margin-left: 25px;
 }
 
 /*Number 16*/
 .search-bar {
-  width: 720px;
-  height: 50px;
-  padding: 0;
-  margin: 0;
-  background: lightgray;
-  border-radius: 10px;
-  border: 1px solid #adadad;
-  position: absolute;
+	width: 720px;
+	height: 50px;
+	padding: 0;
+	margin: 0;
+	background: lightgray;
+	border-radius: 10px;
+	border: 1px solid #adadad;
+	position: absolute;
 }
 
 .search-bar label {
-  position: absolute;
-  left: 0;
-  width: 100px;
-  height: 100%;
-  line-height: 50px;
-  margin: 0 15px;
+	position: absolute;
+	left: 0;
+	width: 100px;
+	height: 100%;
+	line-height: 50px;
+	margin: 0 15px;
 }
 
 .middle {
-  position: absolute;
-  left:115px;
-  right: 110px;
+	position: absolute;
+	left:115px;
+	right: 110px;
 }
+
 .middle input {
-  border-radius: 5px;
-  border: 1px solid #adadad;
-  height: 30px;
-  margin: 10px 0;
-  display: block;
-  width: 100%;
+	border-radius: 5px;
+	border: 1px solid #adadad;
+	height: 30px;
+	margin: 10px 0;
+	display: block;
+	width: 100%;
+	padding-left: 5px;
 }
 
 .search-bar input[type="submit"] {
-  position: absolute;
-  right: 0;
-  width: 80px;
-  color: white;
-  background: salmon;
-  border: 0;
-  border-radius: 5px;
-  height: 30px;
-  margin: 10px 15px;
+	position: absolute;
+	right: 0;
+	width: 80px;
+	color: white;
+	background: salmon;
+	border: 0;
+	border-radius: 5px;
+	height: 30px;
+	margin: 10px 15px;
 }
 
 /*Number 17*/
 .omnibox {
-  width: 500px;
-  border-radius: 5px;
-  border: 1px solid lightgray;
-  padding: 2px 0;
+	width: 450px;
+	border-radius: 5px;
+	border: 1px solid lightgray;
+	padding: 2px 0;
 }
 
 .omnibox ul {
-  border: none;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
+	border: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
 }
 
 .omnibox li {
-  display: inline-block;
-  text-decoration: none;
-  background: #5c79d1;
-  color: #fff;
-  margin: 2px 4px;
-  font-size: .8em;
-  padding: 4px;
-  border-radius: 3px;
+	display: inline-block;
+	text-decoration: none;
+	background: #5c79d1;
+	color: #fff;
+	margin: 2px 4px;
+	font-size: .8em;
+	padding: 4px 8px 4px 4px;
+	border-radius: 3px;
 }
 
 .omnibox a {
-  text-decoration: none;
-  background: #2953cf;
-  color: #fff;
-  padding: 0 2px;
-  border-radius: 2px;
-  margin: 0 3px;
+	text-decoration: none;
+	background: #2953cf;
+	color: #fff;
+	padding: 0 2px;
+	border-radius: 2px;
+	margin: 0 3px 0 5px;
+	padding: 0 4px;
 }
 
 .omnibox input {
-  border: none;
+	border: none;
+}
+
+/*Number 18*/
+.table-list {
+	display: block;
+	width: 500px;
+	overflow: hidden;
+	border: 1px solid lightgray;
+	border-radius: 3px;
+}
+
+.table-title {
+	display: block;
+	width: 500px;
+	background: linear-gradient(to bottom, rgba(250,250,250,1) 10%, rgba(246,246,246,1) 67%, rgba(220,220,220,1) 100%);;
+	height: 35px;
+	border-bottom: 1px solid lightgray;
+}
+
+.table-title-text {
+	width: 500px;
+	font-size: 12px;
+	line-height: 35px;
+	margin-left: 15px;
+}
+
+.table-line-reset {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.table-row {
+	display: block;
+	border-bottom: 1px solid lightgray;
+	background: url('githubicon.png') no-repeat 8px 2px;
+	background-size: 16px 16px;
+}
+
+.table-item-title {
+	padding-left: 40px;
+	overflow: hidden;
+	margin: 5px 0 0 0;
+	color: rgb(0, 0, 238);
+	height: 45px;
+	width: 78%;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.table-number {
+	float: right;
+	text-decoration: none;
+	margin: 0 30px 20px 30px;
+	padding-right: 5px;
+	font-size: 13px;
+}
+
+.background-star {
+	float:right;
+	width: 16px;
+	height: 16px;
+	margin: 0 -94px 0 0;
+	background: url('staricon.png') no-repeat;
+	background-size: 16px 16px;
+}
+
+.default-link {
+	text-decoration: none;
+	color: #000;
+}
+
+.table-content {
+	display: inline-block;
+	color: #000;
+	white-space: nowrap;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 13px;
+	font-weight: normal;
+	margin-top: 3px;
+}
+
+.last-row {
+	border-bottom: none;
+}
+
+.div-fix {
+	width: 495px;
 }
